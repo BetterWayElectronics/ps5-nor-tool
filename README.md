@@ -1,6 +1,6 @@
 # Better Way Electronics - PS5 NOR Tool
  
-![BwE](https://i.imgur.com/j6X8fJM.png)
+![BwE](https://i.imgur.com/SVYRksr.png)
 
 ## Introduction ##
 	I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
@@ -82,7 +82,7 @@
 	  Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: 008038F97C95A9D5A8BE8C03E8B1475E
+    File MD5: 5B5279AC508DE928AD787BA305F09D7A
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -95,6 +95,7 @@
 	
 ## Version History: ##
 
+	1.1.7 (22/10/23) Updated Re-Generator (Better 1200 Support)
 	1.1.6 (21/10/23) Significantly Updated Validations, Added Dump Extractor, Added Dump Patcher, Reworked Bulk Tools Menu, Added Bulk Extractor
 	1.1.5 (5/9/23) Updated Menu, Updated Validations
 	1.1.4 (7/8/23) Updated Regenerator, Updated Validations, Other Small Updates/Fixes
