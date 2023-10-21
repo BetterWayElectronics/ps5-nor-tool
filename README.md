@@ -129,7 +129,7 @@
 
     Proudly made in Perl with Notepad++ by BwE, alone </3
 
-    ## Links ##
+## Links ##
 
 ### Support/Donate: ###
 https://www.buymeacoffee.com/BwE
