@@ -1,6 +1,6 @@
 # Better Way Electronics - PS5 NOR Tool
  
-![BwE](https://i.imgur.com/SVYRksr.png)
+![BwE](https://i.imgur.com/LsODVMH.png)
 
 ## Introduction ##
 	I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
@@ -32,13 +32,15 @@
 		2. Compare Offsets (ASCII)
 		3. Compare Offsets MD5
 		4. Compare Offsets Entropy
-		5. Double Offset Comparison (Data 1 & Data 2)
-		6. Double Offset Comparison (Data 1 & MD5 2)
-		7. Dynamic MD5 Calculation
-		8. Compare File Entropy & Byte Count
-		9. Compare File MD5
-		10. Sort Dumps Into Folders (SKU - FW)
-		11. Extract Dumps by Offset
+  		5. Compare Offsets Statistics
+		6. Double Offset Comparison (Data 1 & Data 2)
+		7. Double Offset Comparison (Data 1 & MD5 2)
+		8. Double Offset Comparison (MD5 1 & MD5 2)
+		9. Dynamic MD5 Calculation
+		10. Compare File Entropy & Byte Count
+		11. Compare File MD5
+		12. Sort Dumps Into Folders (SKU - FW)
+		13. Extract Dumps by Offset
 
   ## NOR Menu: ##
 
@@ -71,18 +73,22 @@
 
 	  The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
 	
-	8 - Validate + Statistics
+	8 - Change/Patch Southbridge
 	
-	  Attempts to validate each file/area within the PS5, still under development and will continue to improve in the future.
-
-	  Also uses aggregate statistical data to determine if the console is significantly corrupt or not.
+		Fix your current Southbridge or patch it from one with a different version. This helps facilitate swapping between different types of Southbridge chip. 
+		
+	9 - Validate + Statistics
+		
+		Attempts to validate each file/area within the PS5 based on various aspects such as hash, entropy, statistics, repetition, block validation etc.
 	
-	9 - Upload Only
-	
-	  Add your dump to the collective!
+		Also uses aggregate statistical data of the entire dump to determine if the console is significantly corrupt or not.
+		
+	10 - Upload Only
+		
+		Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: 5B5279AC508DE928AD787BA305F09D7A
+    File MD5: F6B8C21FA1DECD43C8181A94135EBDDF
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -95,6 +101,10 @@
 	
 ## Version History: ##
 
+	1.2.1 (11/12/23) Added Southbridge Patcher, Completed NVS Validations (Alpha), Updated Existing Validations, Added Statistics For Bulk Tools, Updated Regenerator, Fixed Bugs Throughout
+	1.2.0 (19/11/23) Added More Validations, Changed Validation Method (Testing)
+	1.1.9 (14/11/23) Added 2000 Support (Re-Generator & Validation), Added Some NVS Validations (Will Complete Later), Updated Overall Validations (Rehaul), Fixed Connection Issues, Fixed File Handling Issues, Other Small Bug Fixes.
+	1.1.8 (1/11/23) Added Repetition Checks, Added WiFi MAC, Updated MAC Harvester, Updated Bulk Tools, Updated Regenerator, Improved Version Detection, Improved Extraction, Improved Validation, Fixed Bulk Tools Bug.
 	1.1.7 (22/10/23) Updated Re-Generator (Better 1200 Support)
 	1.1.6 (21/10/23) Significantly Updated Validations, Added Dump Extractor, Added Dump Patcher, Reworked Bulk Tools Menu, Added Bulk Extractor
 	1.1.5 (5/9/23) Updated Menu, Updated Validations
