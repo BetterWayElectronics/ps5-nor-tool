@@ -88,7 +88,7 @@
 		Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: F6B8C21FA1DECD43C8181A94135EBDDF
+    File MD5: 2D7DEAC0571B0C2899533E3C0D78F833
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -101,6 +101,7 @@
 	
 ## Version History: ##
 
+	1.2.2 (21/12/23) Updated Re-Generator (New Method), Updated Validations.
 	1.2.1 (11/12/23) Added Southbridge Patcher, Completed NVS Validations (Alpha), Updated Existing Validations, Added Statistics For Bulk Tools, Updated Regenerator, Fixed Bugs Throughout
 	1.2.0 (19/11/23) Added More Validations, Changed Validation Method (Testing)
 	1.1.9 (14/11/23) Added 2000 Support (Re-Generator & Validation), Added Some NVS Validations (Will Complete Later), Updated Overall Validations (Rehaul), Fixed Connection Issues, Fixed File Handling Issues, Other Small Bug Fixes.
@@ -153,6 +154,7 @@ https://www.buymeacoffee.com/BwE
 - https://www.youtube.com/watch?v=hcmMSYmwSUQ <--- My Video!
 - https://www.youtube.com/watch?v=noS8wfZA99g <--- My Other Video!
 - https://www.youtube.com/watch?v=NDNld92tsZc <--- My PS5 Video
+- https://www.youtube.com/watch?v=cegGCQwKTtU <--- My Code Reader & NOR Tools Video
 - https://www.youtube.com/watch?v=fE4qGHJyX8E
 - https://www.youtube.com/watch?v=q1F0AL3ttjY
 - https://www.youtube.com/watch?v=W7RpkG5hiA0
