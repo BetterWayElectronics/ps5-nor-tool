@@ -1,6 +1,6 @@
 # Better Way Electronics - PS5 NOR Tool
  
-![BwE](https://i.imgur.com/3giiene.png)
+![BwE](https://i.imgur.com/UjQpYOk.png)
 
 ## Introduction ##
 	I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
