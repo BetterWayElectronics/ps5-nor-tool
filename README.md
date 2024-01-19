@@ -51,7 +51,7 @@
 
 	1 - Select Different Dump
 
-	Return to Main Menu!
+		Return to Main Menu!
 		
 	2 - Extract Dump
 	
@@ -65,24 +65,24 @@
 
 	3 - Patch (/Patches/)
 
-	  Designed to load .bin patches from the /Patches/ directory. It will interpret and auto locate patch offsets if they've been extracted by my program. If not it will ask for a start address.
+	  	Designed to load .bin patches from the /Patches/ directory. It will interpret and auto locate patch offsets if they've been extracted by my program. If not it will ask for a start address.
 
 	4 - Re-Generate Dump
 
-	  Attempts to make an entirely fresh dump, but with your consoles important data within. Will likely fix any corruption you may had, but this process is not perfect.
-	  Now supports all firmwares and all SKU's but needs more testing. Let me know of any issues, updates to the PS5 FW may require updates to this feature.
+		  Attempts to make an entirely fresh dump, but with your consoles important data within. Will likely fix any corruption you may had, but this process is not perfect.
+		  Now supports all firmwares and all SKU's but needs more testing. Let me know of any issues, updates to the PS5 FW may require updates to this feature.
 
 	5 - Switch Between Disc/Digital
 
-	  Only uses flags within the dump itself to change whether it is a disc or digital console. May fix SU-101312-8 errors during updates.
+	  	Only uses flags within the dump itself to change whether it is a disc or digital console. May fix SU-101312-8 errors during updates.
 	
 	6 - IDU Toggle
 
-	  Simply enable and disable IDU Mode. Use at own risk!
+	  	Simply enable and disable IDU Mode. Use at own risk!
 	
 	7 - Harvest MAC
 
-	  The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
+	  	The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
 	
 	8 - Change/Patch Southbridge
 	
