@@ -10,9 +10,14 @@
 
 ### Why isn't it free? ###
 	This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
+ 	You can however use this program online at a huge discount: https://validate.betterwayelectronics.com.au/
 	
 ### Will you add more features? ###
 	More features are added whenever I have time to experiment with my PS5s here and or when I get a large amount of PS5 dumps from the public.
+
+### Will this diagnose hardware issues? ###
+
+	No, that is the PS5 Code Reader (https://betterwayelectronics.com.au/ps5codereader) - You can buy that and this program together as a package and save 15%!
 	
 ## TLDR ##
 
@@ -46,11 +51,17 @@
 
 	1 - Select Different Dump
 
-    Return to Main Menu!
+	Return to Main Menu!
 		
 	2 - Extract Dump
 	
-	  Extract based on BwE's interpretation of literal files and does so dynamically based on their size.
+	1. Extract (BwE Style)
+
+	Extract based on literal files and does so dynamically based on their size.
+
+	2. Extract (Traditional Style)
+
+	Extracting file sections pursuant to Sony's file blocks.
 
 	3 - Patch (/Patches/)
 
@@ -88,7 +99,7 @@
 		Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: 2D7DEAC0571B0C2899533E3C0D78F833
+    File MD5: B46BD75E05663A98FDEEB1D50D9F30EB
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -101,6 +112,8 @@
 	
 ## Version History: ##
 
+	1.2.4 (18/1/24) Updated Validations, Bug Fixes
+	1.2.3 (3/1/24) Updated Validations, Updated Patcher, UI Fixes (Text & Menu)
 	1.2.2 (21/12/23) Updated Re-Generator (New Method), Updated Validations.
 	1.2.1 (11/12/23) Added Southbridge Patcher, Completed NVS Validations (Alpha), Updated Existing Validations, Added Statistics For Bulk Tools, Updated Regenerator, Fixed Bugs Throughout
 	1.2.0 (19/11/23) Added More Validations, Changed Validation Method (Testing)
