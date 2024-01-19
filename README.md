@@ -55,13 +55,13 @@
 		
 	2 - Extract Dump
 	
-	1. Extract (BwE Style)
-
-	Extract based on literal files and does so dynamically based on their size.
-
-	2. Extract (Traditional Style)
-
-	Extracting file sections pursuant to Sony's file blocks.
+		1. Extract (BwE Style)
+	
+		Extract based on literal files and does so dynamically based on their size.
+	
+		2. Extract (Traditional Style)
+	
+		Extracting file sections pursuant to Sony's file blocks.
 
 	3 - Patch (/Patches/)
 
