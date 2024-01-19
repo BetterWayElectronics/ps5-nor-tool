@@ -233,6 +233,7 @@ https://www.buymeacoffee.com/BwE
 ## Purchase Link ##
 
 If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/bweps4norvalidator
+Otherwise there is a cheaper alternative available at https://validate.betterwayelectronics.com.au/
 
 I also sell Syscon writing hardware here: https://betterwayelectronics.com.au/#hardware
 
