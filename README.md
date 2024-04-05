@@ -18,6 +18,12 @@
 ### Will this diagnose hardware issues? ###
 
 	No, that is the PS5 Code Reader (https://betterwayelectronics.com.au/ps5codereader) - You can buy that and this program together as a package and save 15%!
+
+### Your program is a VIRUS/SPYWARE WAAAH! ###
+	I protect my programs with Themida. The problem with this is that heuristically some AV software see it as a threat.
+	This is totally fine and normal, but also very annoying and unavoidable. 
+	
+	Visit https://betterwayelectronics.com.au/virus.html for more information!
 	
 ## TLDR ##
 
@@ -80,13 +86,16 @@
 
 	  	Simply enable and disable IDU Mode. Use at own risk!
 	
-	7 - Harvest MAC
+	7 - Data Transfer/Harvest Data
 
-	  	The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
-	
+		The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
+		Another use for this is if you have one working dump and want to transfer its key data (MAC, Serial, SKU, Board IDs) to a corrupt one. It will let you select which data you want to transfer over and will make a patch.
+		I would still recommend using the re-generator process instead of your own dump as it patches significantly more, but this is a valuable alternative should it fail, though a lot of per-console data will be gone forever.
+			
 	8 - Change/Patch Southbridge
 	
 		Fix your current Southbridge or patch it from one with a different version. This helps facilitate swapping between different types of Southbridge chip. 
+		Illustration provided on what to mask on the board for this to work.
 		
 	9 - Validate + Statistics
 		
@@ -99,7 +108,7 @@
 		Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: B46BD75E05663A98FDEEB1D50D9F30EB
+    File MD5: 56AB929AE27ED2DD82A56AC487B1D62B
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -111,7 +120,8 @@
     BwE
 	
 ## Version History: ##
-
+	1.2.6 (1/4/24) Significantly Updated Validations, Updated Re-Generator, Updated Southbridge Patcher, Updated Bulk Extractor
+	1.2.5 (11/2/24) Significantly Updated Validations, Updated Re-Generator, Changed MAC Harvester to Data Transfer/Harvest, Fixed Bulk MD5 Output.
 	1.2.4 (18/1/24) Updated Validations, Bug Fixes
 	1.2.3 (3/1/24) Updated Validations, Updated Patcher, UI Fixes (Text & Menu)
 	1.2.2 (21/12/23) Updated Re-Generator (New Method), Updated Validations.
