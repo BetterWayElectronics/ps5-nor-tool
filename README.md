@@ -1,6 +1,6 @@
 # Better Way Electronics - PS5 NOR Tool
  
-![BwE](https://i.imgur.com/QY0mcEz.png)
+![BwE](https://webtools.bwe.dev/img/ps5.png)
 
 ## Introduction ##
 	I am BwE of betterwayelectronics.com.au and I have been creating software to validate the PlayStation's flash since 2008 with the help of psdevwiki.com :)
@@ -30,85 +30,49 @@
 * Will this fix my BLOD? It depends, if the console beeps once and flashes briefly then theres a higher chance. Same if there is no beep at all.
 * Will this prove my BLOD is software based? Yes, if the dump comes up 100% valid then it is likely a hardware issue.
 
-## Bulk NOR Tools Menu: ##
-
-	Launches the comparison app, used for the bulk diagnosis and comparison of dumps (Put multiple .bin files in the same directory). Features multiple output and filter options.
-	
-		1. Compare Specific Version Only
-		2. Compare Specific SKU Only
-		3. Compare Specific Version & SKU Only
-		4. Compare All Dumps
-
-		1. Compare Offsets (Hex)
-		2. Compare Offsets (ASCII)
-		3. Compare Offsets MD5
-		4. Compare Offsets Entropy
-  		5. Compare Offsets Statistics
-		6. Double Offset Comparison (Data 1 & Data 2)
-		7. Double Offset Comparison (Data 1 & MD5 2)
-		8. Double Offset Comparison (MD5 1 & MD5 2)
-		9. Dynamic MD5 Calculation
-		10. Compare File Entropy & Byte Count
-		11. Compare File MD5
-		12. Sort Dumps Into Folders (SKU - FW)
-		13. Extract Dumps by Offset
 
   ## NOR Menu: ##
-
+	
 	1 - Select Different Dump
-
+	
 		Return to Main Menu!
 		
-	2 - Extract Dump
+	2 - Extract Selected Dump
+		
+		Extract the individual files within the NOR itself
 	
-		1. Extract (BwE Style)
+	3 - Re-Generate Dump
 	
-		Extract based on literal files and does so dynamically based on their size.
+		Attempts to make an entirely fresh dump, but with your consoles important data within. Will likely fix any corruption you may had, but this process is not perfect.
+		Now supports all firmwares and all SKU's but needs more testing. Let me know of any issues, updates to the PS5 FW may require updates to this feature.
 	
-		2. Extract (Traditional Style)
+	4 - Switch Between Disc/Digital
 	
-		Extracting file sections pursuant to Sony's file blocks.
-
-	3 - Patch (/Patches/)
-
-	  	Designed to load .bin patches from the /Patches/ directory. It will interpret and auto locate patch offsets if they've been extracted by my program. If not it will ask for a start address.
-
-	4 - Re-Generate Dump
-
-		  Attempts to make an entirely fresh dump, but with your consoles important data within. Will likely fix any corruption you may had, but this process is not perfect.
-		  Now supports all firmwares and all SKU's but needs more testing. Let me know of any issues, updates to the PS5 FW may require updates to this feature.
-
-	5 - Switch Between Disc/Digital
-
-	  	Only uses flags within the dump itself to change whether it is a disc or digital console. May fix SU-101312-8 errors during updates.
+		Only uses flags within the dump itself to change whether it is a disc or digital console. May fix SU-101312-8 errors during updates.
+		
+	5 - IDU Toggle
 	
-	6 - IDU Toggle
-
-	  	Simply enable and disable IDU Mode. Use at own risk!
+		Simply enable and disable IDU Mode. Use at own risk!
+		
+	6 - Data Transfer/Harvest Data
 	
-	7 - Data Transfer/Harvest Data
-
 		The PS5 will not boot and will beep once if your MAC address (or its hash) is corrupted, harvesting one from another console is the only solution as it cannot be generated/modified.
 		Another use for this is if you have one working dump and want to transfer its key data (MAC, Serial, SKU, Board IDs) to a corrupt one. It will let you select which data you want to transfer over and will make a patch.
 		I would still recommend using the re-generator process instead of your own dump as it patches significantly more, but this is a valuable alternative should it fail, though a lot of per-console data will be gone forever.
-			
-	8 - Change/Patch Southbridge
+		
+	7 - Change/Patch Southbridge
 	
 		Fix your current Southbridge or patch it from one with a different version. This helps facilitate swapping between different types of Southbridge chip. 
 		Illustration provided on what to mask on the board for this to work.
 		
-	9 - Validate + Statistics
+	8 - Validate + Statistics
 		
 		Attempts to validate each file/area within the PS5 based on various aspects such as hash, entropy, statistics, repetition, block validation etc.
 	
 		Also uses aggregate statistical data of the entire dump to determine if the console is significantly corrupt or not.
-		
-	10 - Upload Only
-		
-		Add your dump to the collective!
 
 ## File Information: ##
-    File MD5: 56AB929AE27ED2DD82A56AC487B1D62B
+    File MD5: 2B427A27E8BF07F4EE30E56746B134E4
     Technical Support: bweps5readme@betterwayelectronics.com.au
     
     System Requirements:
@@ -120,19 +84,27 @@
     BwE
 	
 ## Version History: ##
+	> Client
+	1.0.1 (14/10/24) Bug Fix
+	1.0.0 (13/10/24) WebTools Version Release! Main App Don't Need Updating - It Is Now Auto Updated & Cloud Based!
+	
+	> Main App
+	1.3.0 (3/1/25) Updated All Patches, Updated Regenerator, Updated Validations to 10.40
+	1.2.8 (19/8/24) Added Thousands Of New Validations, Bug Fixes
+	1.2.7 (21/6/24) Significantly Updated Validations, Updated Re-Generator, Updated Southbridge Patcher, Other Internal Changes
 	1.2.6 (1/4/24) Significantly Updated Validations, Updated Re-Generator, Updated Southbridge Patcher, Updated Bulk Extractor
 	1.2.5 (11/2/24) Significantly Updated Validations, Updated Re-Generator, Changed MAC Harvester to Data Transfer/Harvest, Fixed Bulk MD5 Output.
 	1.2.4 (18/1/24) Updated Validations, Bug Fixes
 	1.2.3 (3/1/24) Updated Validations, Updated Patcher, UI Fixes (Text & Menu)
 	1.2.2 (21/12/23) Updated Re-Generator (New Method), Updated Validations.
-	1.2.1 (11/12/23) Added Southbridge Patcher, Completed NVS Validations (Alpha), Updated Existing Validations, Added Statistics For Bulk Tools, Updated Regenerator, Fixed Bugs Throughout
+	1.2.1 (11/12/23) Added Southbridge Patcher, Completed NVS Validations (Alpha), Updated Existing Validations, Added Statistics For Bulk Tools, Updated Re-generator, Fixed Bugs Throughout
 	1.2.0 (19/11/23) Added More Validations, Changed Validation Method (Testing)
 	1.1.9 (14/11/23) Added 2000 Support (Re-Generator & Validation), Added Some NVS Validations (Will Complete Later), Updated Overall Validations (Rehaul), Fixed Connection Issues, Fixed File Handling Issues, Other Small Bug Fixes.
-	1.1.8 (1/11/23) Added Repetition Checks, Added WiFi MAC, Updated MAC Harvester, Updated Bulk Tools, Updated Regenerator, Improved Version Detection, Improved Extraction, Improved Validation, Fixed Bulk Tools Bug.
+	1.1.8 (1/11/23) Added Repetition Checks, Added WiFi MAC, Updated MAC Harvester, Updated Bulk Tools, Updated Re-generator, Improved Version Detection, Improved Extraction, Improved Validation, Fixed Bulk Tools Bug.
 	1.1.7 (22/10/23) Updated Re-Generator (Better 1200 Support)
 	1.1.6 (21/10/23) Significantly Updated Validations, Added Dump Extractor, Added Dump Patcher, Reworked Bulk Tools Menu, Added Bulk Extractor
-	1.1.5 (5/9/23) Updated Menu, Updated Validations
-	1.1.4 (7/8/23) Updated Regenerator, Updated Validations, Other Small Updates/Fixes
+	1.1.5 (5/9/23) Updated Menu, Updated Validations1
+	1.1.4 (7/8/23) Updated Re-generator, Updated Validations, Other Small Updates/Fixes
 	1.1.3 (3/8/23) Updated MAC Harvester (1200 Issue)
 	1.1.2 (2/8/23) Updated To Suit Latest PS5 FW, Better Firmware Handling (Current & Past), Updated Comparison Tool (Better Outputs, More Options)
 	1.1.1 (23/7/23) Fixed MAC Harvester, Other Small Fixes.
@@ -243,7 +215,7 @@ https://www.buymeacoffee.com/BwE
 ## Purchase Link ##
 
 If you are a commercial user, I highly suggest you buy the software here: https://betterwayelectronics.com.au/bweps4norvalidator
-Otherwise there is a cheaper alternative available at https://validate.betterwayelectronics.com.au/
+Otherwise there is a cheaper alternative available at https://webtools.bwe.dev
 
 I also sell Syscon writing hardware here: https://betterwayelectronics.com.au/#hardware
 
