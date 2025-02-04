@@ -10,7 +10,7 @@
 
 ### Why isn't it free? ###
 	This program is targeted towards businesses with bulk amounts of PS5s to repair. My products also come with support and continued development.
- 	You can however use this program online at a huge discount: https://validate.betterwayelectronics.com.au/
+ 	You can however use this program online at a huge discount: https://webtools.bwe.dev/
 	
 ### Will you add more features? ###
 	More features are added whenever I have time to experiment with my PS5s here and or when I get a large amount of PS5 dumps from the public.
@@ -24,6 +24,10 @@
 	This is totally fine and normal, but also very annoying and unavoidable. 
 	
 	Visit https://betterwayelectronics.com.au/virus.html for more information!
+ 
+ ### Are there any guides? ###
+ 	https://betterwayelectronics.com.au/guide
+
 	
 ## TLDR ##
 
@@ -211,6 +215,7 @@ https://www.buymeacoffee.com/BwE
 - https://github.com/BetterWayElectronics/
 - https://twitter.com/BwE_Dev
 - http://www.ps5repair.com.au/
+- https://webtools.bwe.dev
 
 ## Purchase Link ##
 
